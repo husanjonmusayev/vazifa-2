@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 52px;
+   
+}
+.nav_bar ul li{
+list-style: none;
+display: inline-block;
+
+align-items: center;
+}
+.nav_bar ul li a{
+text-decoration: none;
+margin-left: 30px;
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .logo{
+        display: flex;
+    }
+.current a{
+width: 151px;
+text-decoration: none;  
+display: flex;
+padding: 16px;
+color:  #007AFF;
+border-radius: 33px;
+border: 0.5px solid rgba(0, 122, 255, 0.12);
+background: rgba(0, 122, 255, 0.12);
+
+ }
+ .current a:hover{
+color:#FFF;
+background-color: #007AFF;
+transition: 0,3;
+ }
+.logo a{
+text-decoration: none;
+width: 81px;
+height: 24px;
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 85px;
+margin-top: 10px;
+}
+
+.form input{
+    width: 471px;
+    height: 56px;
+    border-radius: 60px;
+    border: 1px solid var(--system-gray-05-light, #E5E5EA);
+    background: #FFF;
+    box-shadow: 0px 12px 24px 0px rgba(5, 16, 55, 0.04);
+    padding: 16px 24px;
+    margin-right: 120px;
+    }
+.icon img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.pic{
+width: 889px;
+height: 490px;
+flex-shrink: 0;
+}
+.hero{
+    display: flex;
+}
+.pic img{
+    width: 869px;
+}
+.list{
+padding-top:48px;
+padding-left: 36px;
+width: 432px;
+height: 490px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #FFF;
+box-shadow: 0px 18px 34px 0px rgba(5, 16, 55, 0.15);
+}
+.list h2{
+width: 300px;
+height: 72px;
+color: #000;
+font-family: Rotunda;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 128.571% */
+display: flex;
+justify-content: center;
+display: inline-block;
+margin-bottom: 12px;
+}
+.userpic{
+display: flex;
+}
+.userpic img{
+    margin-right: 8px;
+}
